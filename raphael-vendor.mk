@@ -152,8 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvt.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtutils.so \
-    vendor/xiaomi/raphael/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
-    vendor/xiaomi/raphael/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/libdpmctmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmctmgr.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/libdpmfdmgr.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmfdmgr.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmframework.so \
@@ -181,41 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/xiaomi/raphael/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/bin/hw/vendor.qti.hardware.display.allocator-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.qti.hardware.display.allocator-service \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/dsi_ss_fhd_ea8076_cmd_display_mi.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dsi_ss_fhd_ea8076_cmd_display_mi.xml \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/dsi_ss_fhd_ea8076_global_cmd_display_mi.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dsi_ss_fhd_ea8076_global_cmd_display_mi.xml \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/dsi_visionox_fhd_r66456_f11_cmd_display_mi.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dsi_visionox_fhd_r66456_f11_cmd_display_mi.xml \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/init/vendor.qti.hardware.display.allocator-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.qti.hardware.display.allocator-service.rc \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/displayfeature.default.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/displayfeature.default.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/gralloc.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/gralloc.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/hwcomposer.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/hwcomposer.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/memtrack.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/memtrack.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libdisplaydebug.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdisplaydebug.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libdisplayqos.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdisplayqos.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libdpps.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpps.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libdrm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdrm.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libdrmutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdrmutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libgpu_tonemapper.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgpu_tonemapper.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libgralloccore.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgralloccore.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libgrallocutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgrallocutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libhdcp1prov.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libhdcp2p2prov.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libhdmipassthru.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libqdMetaData.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqdMetaData.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libqdutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqdutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libqseed3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqseed3.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libqservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqservice.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdedrm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdedrm.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdm-color.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdm-color.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdm-colormgr-algo.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdm-disp-vndapis.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdmcore.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdmcore.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdmextension.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdmextension.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/libsdmutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libsdmutils.so \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/audio_adsp_loader.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_adsp_loader.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/audio_apr.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_apr.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/audio_cs35l41.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/audio_cs35l41.ko \
@@ -249,41 +212,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/qca_cld3_wlan.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/rmnet_perf.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/rmnet_perf.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/rmnet_shs.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/rmnet_shs.ko \
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/sla.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/sla.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/modules/tspp.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/modules/tspp.ko \
     vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.xiaomi.hardware.displayfeature@1.0.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/android.hardware.graphics.mapper@2.0-impl-qti-display.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/displayfeature.default.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/gralloc.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/gralloc.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/hwcomposer.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/hwcomposer.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/memtrack.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/memtrack.msmnile.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libclient2slpi.notifier.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libclient2slpi.notifier.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libdisplaydebug.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdisplaydebug.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libdisplayqos.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdisplayqos.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libdpps.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdpps.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libdrm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdrm.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libdrmutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdrmutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgpu_tonemapper.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libgralloccore.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgralloccore.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgrallocutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libhdcp1prov.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libhdcp2p2prov.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libhdmipassthru.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqdMetaData.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libqdutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqdutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libqseed3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqseed3.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libqservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqservice.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdedrm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdedrm.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdm-color.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdm-color.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdm-colormgr-algo.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdm-colormgr-algo.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdm-disp-vndapis.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdmcore.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdmcore.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdmextension.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdmextension.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/libsdmutils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libsdmutils.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/vendor.display.color@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.display.color@1.3.so \
-    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
+    vendor/xiaomi/raphael/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
 
 PRODUCT_PACKAGES += \
     SoterService \
